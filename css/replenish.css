@@ -1,0 +1,109 @@
+<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #ffffff;
+		margin:0;
+		padding:0;
+	}
+    span{
+    	color:#ffffff;
+    }
+	.textSplitLoad {
+    	display: none;
+	}
+	.split {
+    	visibility: hidden;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		padding: 30% 0 0 0;
+		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
+  		url(../img/blueskyA.jpg);
+  		background-size: 100vw 100vh;
+  		
+	}
+	#section1{
+		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
+		url(../img/greenforest.jpg);
+		background-size: 100vw 100vh;
+		padding: 6% 0 0 0;
+	}
+	#section2{
+		background-image: url(../img/blueskyB.jpg);
+		background-size: 100vw 100vh;
+		padding: 6% 0 0 0;
+	}
+
+	#section4{
+		background-image: url(../img/bg4.jpg);
+		background-size: 100vw 100vh;
+		padding: 6% 0 0 0;
+	}
+	#section3 h1{
+		color: #000;
+	}
+
+
+ 	/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url(../img/bg2.jpg);
+		background-size: 100vw 100vh;
+		padding: 6% 0 0 0;
+	}
+	#slide2{
+		background-image: url(../img/greenforest.jpg);
+		background-size: 100vw 100vh;
+		padding: 6% 0 0 0;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+   img {
+  		float: right;
+  		width: 40%;
+  		height: 20%;
+	}
+
+	.game-image img	{
+		display: inline-block;
+		vertical-align: middle;
+		*zoom: 1; /* for IE6-7 */
+		*display: inline; /* for IE6-7 */
+	}
+	.game-image .txt {
+		color: #ffffff; 
+		display: inline-block;
+		vertical-align: middle;
+		width:250px; /* 幅の指定がない場合、改行が必要な幅を超えるとカラム落ちします。 */
+		*zoom: 1; /* for IE6-7 */
+		*display: inline; /* for IE6-7 */
+	}
+	</style>

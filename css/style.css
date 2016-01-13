@@ -1,0 +1,168 @@
+﻿/*=============================================================
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+/* =============================================================
+   FONT STYLES
+ ============================================================ */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size:14px;
+    line-height:30px;
+}
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* =============================================================
+   HEADER STYLES
+ ============================================================ */
+#header .overlay {
+    background:url('../img/back.png');
+    color: #fff;    
+    padding-top: 80px;
+    min-height:300px;
+    padding-bottom:80px;
+   
+}
+#header h1 {
+    font-size: 45px;
+    padding-bottom:20px;
+    line-height:55px;
+}
+
+#header h4 {
+     font-size: 16px;
+}
+/* =============================================================
+   COUNTDOWN STYLES
+ ============================================================ */
+
+.countdown-wrapper {
+   min-height: 100px;
+min-width: 100px;
+background-color:#09bdd2;
+padding: 20px;
+color: #191902;
+font-size: 35px;
+margin:20px;
+}
+.countdown-wrapper .timer-text {
+    font-size: 10px;
+    padding-top: 4px;
+    color: #fff;
+}
+
+/*================================
+    EMAIL-SUBSCRIBE STYLES
+ ============================  */
+#email-subscribe {
+    background-color:#E8E8E8;
+}
+#email-subscribe .form-control
+{
+display:inline;
+height:50px;
+font-size:20px;
+margin-right:20px;
+width:60%;
+
+}
+
+#email-subscribe .btn-subscribe
+{
+height:50px;
+font-size:20px;
+color: #fff;
+background-color: #009E80;
+border-color: #0EAD64;
+margin-top:-10px;
+}
+   /*=====================================
+    SOCIAL BUTTON STYLES
+======================================*/
+    .btn-social {
+            color: white;
+            opacity: 0.8;
+        }
+
+            .btn-social:hover {
+                color: white;
+                opacity: 1;
+                text-decoration: none;
+            }
+
+        .btn-facebook {
+            background-color: #3b5998;
+        }
+
+        .btn-twitter {
+            background-color: #00aced;
+        }
+
+        .btn-linkedin {
+            background-color: #0e76a8;
+        }
+
+        .btn-google {
+            background-color: #c32f10;
+        }
+
+/*================================
+    SERVICES SECTION STYLES
+ ============================  */
+#about {
+    background-color:#fff;
+}
+    #about h4 {
+        color:#009E80;
+        padding-bottom:15px;
+        padding-top:15px;
+    }
+    /*================================
+    FOOTER SECTION STYLES
+ ============================  */
+    footer {
+    padding: 10px;
+    color: #808080;
+    background-color:#E8E8E8;
+}
+
+    footer a, footer a:hover,footer a:focus {
+        color: #808080;
+        text-decoration: none;
+    }
+/*================================
+    RESPONSIVE STYLES
+ ============================  */
+
+@media (min-width: 100px) and (max-width: 498px) {
+    #email-subscribe .form-control
+{
+display:block;
+width:100%;
+}
+
+#email-subscribe .btn-subscribe
+{
+margin-top:20px;
+}
+
+}
