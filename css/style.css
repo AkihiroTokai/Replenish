@@ -46,11 +46,12 @@ section {
     font-size: 45px;
     padding-bottom:20px;
     line-height:55px;
+    color:#fafafa;
+    text-shadow: 2px 2px 2px #e8e8e8;
+
 }
 
-#header h4 {
-     font-size: 16px;
-}
+
 /* =============================================================
    COUNTDOWN STYLES
  ============================================================ */

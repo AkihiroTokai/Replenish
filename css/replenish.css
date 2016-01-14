@@ -9,6 +9,15 @@
 		margin:0;
 		padding:0;
 	}
+
+	h4{
+		text-shadow: 3px 5px 1px gray;
+	}
+
+	#hamlet h1 {
+		text-shadow: 3px 5px 1px #e8e8e8;
+	}
+
     span{
     	color:#ffffff;
     }
@@ -72,7 +81,7 @@
 		background-image: url(../img/bg2.jpg);
 		background-size: 100vw 100vh;
 		padding: 6% 0 0 0;
-	}
+	}	
 	#slide2{
 		background-image: url(../img/greenforest.jpg);
 		background-size: 100vw 100vh;
