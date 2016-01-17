@@ -49,8 +49,11 @@
 	#section0{
 		padding: 30% 0 0 0;
 		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
-  		url(../img/blueskyA.jpg);
+		url(../img/blueskyA.jpg);
   		background-size: 100vw 100vh;	
+	}
+	#gradient_box:hover {
+  		background-color: rgb(64, 157, 255);
 	}
 	#section1{
 		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
@@ -70,6 +73,17 @@
 		background-size: 100vw 100vh;
 		padding: 6% 0 0 0;
 	}
+	#section5{
+		background-image: url(../img/bg4.jpg);
+		background-size: 100vw 100vh;
+		padding: 6% 0 0 0;
+	}
+	#email-subscribe{
+	    position: absolute;
+    	bottom: 5%;
+    	width: 100%;
+    	padding: 4vh 0;
+   }	
 	#section3 h1{
 		color: #000;
 	}

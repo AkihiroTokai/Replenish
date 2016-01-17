@@ -86,3 +86,8 @@ $(document).ready(function () {
     }
 });
 
+
+$(function() {
+setInterval(function() {$("#section0").css("linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4),url(../img/blueskyA.jpg)");
+}, 2000);
+});
