@@ -28,6 +28,26 @@
     	visibility: hidden;
 	}
 
+	.game-image-description {
+    	float: right;
+    	margin-left: 20px;
+    	width: 540px;
+
+	}
+
+	.game-image {
+    	float: left;
+    	margin-right: 20px;
+    	width: 60%;
+	}
+
+	.container {
+    	float: left;
+    	width: 940px;
+    	margin: 0 auto;
+    	float: none;
+    	position: relative;
+	}
 	/* Centered texts in each section
 	* --------------------------------------- */
 	.section{
@@ -73,11 +93,7 @@
 		background-size: 100vw 100vh;
 		padding: 6% 0 0 0;
 	}
-	#section5{
-		background-image: url(../img/bg4.jpg);
-		background-size: 100vw 100vh;
-		padding: 6% 0 0 0;
-	}
+
 	#email-subscribe{
 	    position: absolute;
     	bottom: 5%;
