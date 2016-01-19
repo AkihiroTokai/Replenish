@@ -8,6 +8,7 @@
 		color: #ffffff;
 		margin:0;
 		padding:0;
+		text-align: center;
 	}
 
 	h4{
@@ -28,25 +29,27 @@
     	visibility: hidden;
 	}
 
-	.game-image-description {
+	.gi-description {
     	float: right;
-    	margin-left: 20px;
-    	width: 540px;
-
+    	margin-left: 3%;
+    	margin-right: 3%;
+    	width: 50%;
 	}
 
 	.game-image {
-    	float: left;
+    	float: right;
     	margin-right: 20px;
-    	width: 60%;
+    	width: 50%;
 	}
 
-	.container {
-    	float: left;
-    	width: 940px;
-    	margin: 0 auto;
-    	float: none;
-    	position: relative;
+	#ontainer {
+    	display: table-cell;
+    	vertical-align: middle;
+    	text-align: center;
+    	color: #cccccc;
+    	width: 100%;
+    	padding: 50px;
+}
 	}
 	/* Centered texts in each section
 	* --------------------------------------- */
@@ -86,15 +89,26 @@
   		url(../img/blueskyB.jpg);
 		background-size: 100vw 100vh;
 		padding: 6% 0 0 0;
+		position: relative;
+  		width: 100%;
+  		padding-top: 56.25%;
+	}
+
+	#section2 iframe {
+  		position: absolute;
+  		top: 0;
+  		right: 0;
+  		width: 100% !important;
+  		height: 100% !important;
 	}
 
 	#section4{
 		background-image: url(../img/bg4.jpg);
 		background-size: 100vw 100vh;
-		padding: 6% 0 0 0;
 	}
 
 	#email-subscribe{
+		background-color:#e8e8e8;
 	    position: absolute;
     	bottom: 5%;
     	width: 100%;
@@ -129,23 +143,9 @@
 	}
 
    img {
-  		float: right;
+  		float: left;
   		width: 40%;
   		height: 20%;
 	}
 
-	.game-image img	{
-		display: inline-block;
-		vertical-align: middle;
-		*zoom: 1; /* for IE6-7 */
-		*display: inline; /* for IE6-7 */
-	}
-	.game-image .txt {
-		color: #ffffff; 
-		display: inline-block;
-		vertical-align: middle;
-		width:250px; /* 幅の指定がない場合、改行が必要な幅を超えるとカラム落ちします。 */
-		*zoom: 1; /* for IE6-7 */
-		*display: inline; /* for IE6-7 */
-	}
 	</style>
