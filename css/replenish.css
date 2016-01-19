@@ -8,6 +8,7 @@
 		color: #ffffff;
 		margin:0;
 		padding:0;
+		text-align: center;
 	}
 
 	h4{
@@ -28,6 +29,28 @@
     	visibility: hidden;
 	}
 
+	.gi-description {
+    	float: right;
+    	margin-left: 3%;
+    	margin-right: 3%;
+    	width: 50%;
+	}
+
+	.game-image {
+    	float: right;
+    	margin-right: 20px;
+    	width: 50%;
+	}
+
+	#ontainer {
+    	display: table-cell;
+    	vertical-align: middle;
+    	text-align: center;
+    	color: #cccccc;
+    	width: 100%;
+    	padding: 50px;
+}
+	}
 	/* Centered texts in each section
 	* --------------------------------------- */
 	.section{
@@ -49,9 +72,11 @@
 	#section0{
 		padding: 30% 0 0 0;
 		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
-  		url(../img/blueskyA.jpg);
-  		background-size: 100vw 100vh;
-  		
+		url(../img/blueskyA.jpg);
+  		background-size: 100vw 100vh;	
+	}
+	#gradient_box:hover {
+  		background-color: rgb(64, 157, 255);
 	}
 	#section1{
 		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
@@ -60,16 +85,35 @@
 		padding: 6% 0 0 0;
 	}
 	#section2{
-		background-image: url(../img/blueskyB.jpg);
+		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
+  		url(../img/blueskyB.jpg);
 		background-size: 100vw 100vh;
 		padding: 6% 0 0 0;
+		position: relative;
+  		width: 100%;
+  		padding-top: 56.25%;
+	}
+
+	#section2 iframe {
+  		position: absolute;
+  		top: 0;
+  		right: 0;
+  		width: 100% !important;
+  		height: 100% !important;
 	}
 
 	#section4{
 		background-image: url(../img/bg4.jpg);
 		background-size: 100vw 100vh;
-		padding: 6% 0 0 0;
 	}
+
+	#email-subscribe{
+		background-color:#e8e8e8;
+	    position: absolute;
+    	bottom: 5%;
+    	width: 100%;
+    	padding: 4vh 0;
+   }	
 	#section3 h1{
 		color: #000;
 	}
@@ -78,14 +122,17 @@
  	/*Adding background for the slides
 	* --------------------------------------- */
 	#slide1{
-		background-image: url(../img/bg2.jpg);
+		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
+		url(../img/bg2.jpg);
 		background-size: 100vw 100vh;
 		padding: 6% 0 0 0;
 	}	
 	#slide2{
-		background-image: url(../img/greenforest.jpg);
+		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
+		url(../img/greenforest.jpg);
 		background-size: 100vw 100vh;
 		padding: 6% 0 0 0;
+	}
 	}
 
 
@@ -96,23 +143,9 @@
 	}
 
    img {
-  		float: right;
+  		float: left;
   		width: 40%;
   		height: 20%;
 	}
 
-	.game-image img	{
-		display: inline-block;
-		vertical-align: middle;
-		*zoom: 1; /* for IE6-7 */
-		*display: inline; /* for IE6-7 */
-	}
-	.game-image .txt {
-		color: #ffffff; 
-		display: inline-block;
-		vertical-align: middle;
-		width:250px; /* 幅の指定がない場合、改行が必要な幅を超えるとカラム落ちします。 */
-		*zoom: 1; /* for IE6-7 */
-		*display: inline; /* for IE6-7 */
-	}
 	</style>
