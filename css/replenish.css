@@ -78,13 +78,9 @@
 	#gradient_box:hover {
   		background-color: rgb(64, 157, 255);
 	}
+
+
 	#section1{
-		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
-		url(../img/greenforest.jpg);
-		background-size: 100vw 100vh;
-		padding: 6% 0 0 0;
-	}
-	#section2{
 		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
   		url(../img/blueskyB.jpg);
 		background-size: 100vw 100vh;
@@ -94,12 +90,23 @@
   		padding-top: 56.25%;
 	}
 
-	#section2 iframe {
+	#section1 iframe {
   		position: absolute;
   		top: 0;
   		right: 0;
   		width: 100% !important;
   		height: 100% !important;
+	}
+
+	#section2{
+		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
+		url(../img/greenforest.jpg);
+		background-size: 100vw 100vh;
+		padding: 6% 0 0 0;
+	}
+
+	#section2 h1{
+		font-size: 4.5em;
 	}
 
 	#section4{
@@ -123,13 +130,13 @@
 	* --------------------------------------- */
 	#slide1{
 		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
-		url(../img/bg2.jpg);
+		url(../img/falls.jpg);
 		background-size: 100vw 100vh;
 		padding: 6% 0 0 0;
 	}	
 	#slide2{
 		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
-		url(../img/greenforest.jpg);
+		url(../img/bg2.jpg);
 		background-size: 100vw 100vh;
 		padding: 6% 0 0 0;
 	}
