@@ -41,7 +41,7 @@ $(document).ready(function () {
 
     setInterval(function () {
 
-        var enddate = new Date("Jan 24 2016 06:30:00 GMT+09:00"); // change your date here like Jan 10 2016 GMT+05:00
+        var enddate = new Date("Jan 24 2016 15:30:00 GMT+09:00"); // change your date here like Jan 10 2016 GMT+05:00
 
         var today = new Date();
 
