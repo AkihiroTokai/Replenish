@@ -32,7 +32,7 @@ caption,th {
 
 }
 h1{
-	font-size: 5em;
+	font-size: 4em;
 	font-family: arial,helvetica;
 	color: #fff;
 	margin:0;
@@ -64,9 +64,6 @@ body{
 	margin-right: auto;
 	width: 960px;
 	position: relative;
-}
-h1{
-	font-size: 6em;
 }
 p{
 	font-size: 2em;
