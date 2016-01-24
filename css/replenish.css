@@ -29,6 +29,13 @@
     	visibility: hidden;
 	}
 
+	#section0 h1 {
+		font-size:6em;
+	}
+
+	#section3 .gi-description{
+		font-size:2em;
+	}
 	.gi-description {
     	float: right;
     	margin-left: 3%;
@@ -75,16 +82,18 @@
 		url(../img/blueskyA.jpg);
   		background-size: 100vw 100vh;	
 	}
+
+	#section0 p{
+		color: white;
+	}
+
 	#gradient_box:hover {
   		background-color: rgb(64, 157, 255);
 	}
+
+
+
 	#section1{
-		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
-		url(../img/greenforest.jpg);
-		background-size: 100vw 100vh;
-		padding: 6% 0 0 0;
-	}
-	#section2{
 		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
   		url(../img/blueskyB.jpg);
 		background-size: 100vw 100vh;
@@ -94,7 +103,9 @@
   		padding-top: 56.25%;
 	}
 
-	#section2 iframe {
+
+
+	#section1 iframe {
   		position: absolute;
   		top: 0;
   		right: 0;
@@ -102,10 +113,70 @@
   		height: 100% !important;
 	}
 
+	#section2{
+		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
+		url(../img/greenforest.jpg);
+		background-size: 100vw 100vh;
+		padding: 6% 0 0 0;
+	}
+
+	#section2 h1 {
+		margin-top: 10%;
+		font-size: 300%;
+		color: white;
+	}
+
+	.story h2 {
+		text-align: left;
+		margin-top: 5%;
+		font-size: 200%;
+		color: white;
+	}
+
+
+	#section3{
+		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
+		url(../img/falls.jpg);
+		background-size: 100vw 100vh;
+		text-align: center;
+		padding: 6% 0 0 0;
+	}
+
+
+	.top h3{
+		text-align: left;
+		font-size: 190%;
+		color: white;
+	}
+
+	.gi-description{
+		text-align: left;
+	}
+
 	#section4{
-		background-image: url(../img/bg4.jpg);
+		position: relative;
+		background: linear-gradient(-45deg, rgba(153, 149, 150, 0.8), rgba(153, 149, 150, 0.4)),
+		url(../img/greenforest.jpg);
 		background-size: 100vw 100vh;
 	}
+
+	.top{
+		position: relative;
+		height: 50%;
+		margin-top: 10%;
+	}
+	.under{
+		position: relative;
+		height: 50%;
+		height:50%;
+	}
+
+	#section5{
+		background:url(../img/bg4.jpg);
+		background-size: 100vw 100vh;
+		padding: 6% 0 0 0;
+	}
+
 
 	#email-subscribe{
 		background-color:#e8e8e8;
