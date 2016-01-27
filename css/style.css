@@ -57,10 +57,11 @@ section {
  ============================================================ */
 
 .countdown-wrapper {
-   min-height: 100px;
+min-height: 100px;
 min-width: 100px;
 background-color:#09bdd2;
-padding: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
 color: #191902;
 font-size: 35px;
 margin:20px;
